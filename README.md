@@ -62,6 +62,25 @@ PUT /tasks/{id}
 
 DELETE /tasks/{id}
 
+## Run Project
+
+```bash
+go run ./cmd/api
+```
+
+## Environment Variables
+
+```env
+APP_PORT=8080
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_NAME=taskflow
+DB_SSLMODE=disable
+```
+
 ## Author
 
 Bogdan Voronyk
